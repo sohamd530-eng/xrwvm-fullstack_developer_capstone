@@ -1,0 +1,15 @@
+﻿$ curl -X GET http://127.0.0.1:8000/djangoapp/reviews/dealer/15
+[
+  {
+    "id": 1,
+    "name": "Berkly Shepley",
+    "dealership": 15,
+    "review": "Total grid-enabled service-desk",
+    "purchase": true,
+    "purchase_date": "07/11/2020",
+    "car_make": "Audi",
+    "car_model": "A6",
+    "car_year": 2010,
+    "sentiment": "positive"
+  }
+]
