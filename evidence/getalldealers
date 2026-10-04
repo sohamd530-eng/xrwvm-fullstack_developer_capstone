@@ -1,0 +1,39 @@
+﻿$ curl -X GET http://127.0.0.1:8000/djangoapp/get_dealers
+[
+  {
+    "id": 1,
+    "city": "El Paso",
+    "state": "Texas",
+    "st": "TX",
+    "address": "3 State Crossing",
+    "zip": "79968",
+    "lat": 31.7587,
+    "long": -106.4869,
+    "short_name": "Holdfast",
+    "full_name": "Holdfast Car Dealership"
+  },
+  {
+    "id": 8,
+    "city": "Topeka",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "288 Larry Place",
+    "zip": "66642",
+    "lat": 39.0429,
+    "long": -95.7697,
+    "short_name": "Bytecard",
+    "full_name": "Bytecard Car Dealership"
+  },
+  {
+    "id": 15,
+    "city": "Dallas",
+    "state": "Texas",
+    "st": "TX",
+    "address": "4530 Crest Line Road",
+    "zip": "75201",
+    "lat": 32.7767,
+    "long": -96.7970,
+    "short_name": "Alpha",
+    "full_name": "Alpha Car Dealership"
+  }
+]
