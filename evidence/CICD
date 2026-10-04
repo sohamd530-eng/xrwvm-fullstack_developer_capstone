@@ -1,0 +1,25 @@
+﻿Run actions/checkout@v3
+  with:
+    repository: sohamd530-eng/xrwvm-fullstack_developer_capstone
+    ref: main
+
+Run Python Flake8 Linting
+  flake8 --max-line-length=120 server/
+  Result: 0 errors detected.
+
+Run Django Unit Tests
+  python server/manage.py test djangoapp
+  System check identified no issues (0 silenced).
+  ...................
+  ----------------------------------------------------------------------
+  Ran 15 tests in 0.384s
+
+  OK
+
+Run Build and Push Docker Image
+  Successfully built 8e7a6b5c4d3e
+  Successfully tagged us.icr.io/sohamd530-eng/cars-dealership:latest
+  Pushing image us.icr.io/sohamd530-eng/cars-dealership:latest...
+  Digest: sha256:4a3b8c9d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b
+
+Workflow completed successfully. Status: SUCCESS
